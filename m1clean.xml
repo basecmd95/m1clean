@@ -16,9 +16,92 @@ var clean_uri = uri.substring(0, uri.indexOf("&m=1"));
 window.history.replaceState({}, document.title, clean_uri);
 }
 var uri = window.location.toString();
+if (uri.indexOf("*","*") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("*"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+//]]>
+</script>
+
+
+
+<script type='text/javascript'>
+//<![CDATA[
+var uri = window.location.toString();
+if (uri.indexOf("%3D","%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("%3D%3D","%3D%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("&m=1","&m=1") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("&m=1"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("/?m=0","/?m=0") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("/?m=0"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+//]]>
+</script>
+
+
+
+
+
+<script type='text/javascript'>
+//<![CDATA[
+var uri = window.location.toString();
+if (uri.indexOf("%3D","%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("%3D%3D","%3D%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("&m=1","&m=1") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("&m=1"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("?zx=29116fbdb5a3c62c","?zx=29116fbdb5a3c62c") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("?zx=29116fbdb5a3c62c"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+//]]>
+</script>
+
+<script type='text/javascript'>
+//<![CDATA[
+var uri = window.location.toString();
+if (uri.indexOf("%3D","%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("%3D%3D","%3D%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("&m=1","&m=1") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("&m=1"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
 if (uri.indexOf("?m=1","?m=1") > 0) {
 var clean_uri = uri.substring(0, uri.indexOf("?m=1"));
 window.history.replaceState({}, document.title, clean_uri);
 }
 //]]>
 </script>
+
+
